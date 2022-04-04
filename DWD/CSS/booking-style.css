@@ -1,0 +1,56 @@
+.wrapper{
+    height:100vh;
+    background: whitesmoke;
+}
+.bcontainer{
+    margin:5px auto;
+    height:auto;
+    width:50%;
+}
+.cinemahalls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:10px;
+}
+.list, .time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.seats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.list h5, .time h5, .seats h5{
+    margin:5px;
+    padding:5px;
+    border:1px dashed grey;
+}
+.seats form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seats form input{
+    border:1px dashed grey;
+    background: transparent;
+    margin:10px;
+}
+.seats form button{
+    padding:10px;
+    background: #40D3DC;
+    color:#072227;
+    border:1px solid #072227;
+    border-radius: 5px;
+    transition: .2s;
+}
+.seats form button:hover{
+    background: #072227;
+    color:#40D3DC;
+}

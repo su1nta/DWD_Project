@@ -1,0 +1,54 @@
+.wrapper{
+    height: 90vh;
+}
+.logincontainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    margin:15px auto;
+}
+.loginform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin:15px auto;
+    color:black;
+}
+.loginform input{
+    margin:10px auto;
+    padding:5px;
+    width:200px;
+    color:black;
+}
+.loginform button{
+    color:black;
+    padding: 5px;
+    margin:10px auto;
+}
+
+.buttons .logout{
+    display:none;
+}
+.active p{
+    color: #40D3DC;
+}
+@media only screen and (max-width:768px){
+    .logincontainer{
+        width:90%;
+    }
+    .loginform{
+        width:100%;
+    }
+    .loginform input{
+        width:90%;
+        height:6vh;
+        border-radius: 10px;
+        border:1px solid grey;
+    }
+    .loginform button{
+        padding:10px 15px;
+        font-size: 20px;
+    }
+}
